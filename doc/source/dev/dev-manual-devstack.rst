@@ -170,7 +170,8 @@ Finally, configure the keystone endpoint::
     keystone endpoint-create --service=magnum \
                              --publicurl=http://127.0.0.1:9511/v1 \
                              --internalurl=http://127.0.0.1:9511/v1 \
-                             --adminurl=http://127.0.0.1:9511/v1
+                             --adminurl=http://127.0.0.1:9511/v1 \
+                             --region RegionOne
 
 
 Next start the API service::
@@ -181,6 +182,6 @@ Finally start the conductor service in a new window::
 
     magnum-conductor
 
-Magnum should now be up and running. Further steps on utilising Magnum and
+Magnum should now be up and running. Further steps on utilizing Magnum and
 deploying containers can be found in the `quickstart guide
 <../dev-quickstart.rst>`.
