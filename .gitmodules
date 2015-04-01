@@ -1,0 +1,3 @@
+[submodule "magnum/templates/heat-lattice"]
+	path = magnum/templates/heat-lattice
+	url = https://github.com/LaynePeng/heat-lattice.git
